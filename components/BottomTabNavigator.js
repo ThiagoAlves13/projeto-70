@@ -25,9 +25,9 @@ export default class BottomTabNavigator extends Component {
               //}
 
               //if (route.name = "Alugue uma Bicicleta") {
-              // iconName = "bicycle";
+              //iconName = "bicycle";
               //} else if (route.name = "Histórico de Locações") {
-              //  iconName = "time";
+              //</NavigationContainer>  iconName = "time";
               //}
 
               //if (route.name === Alugue uma Bicicleta) {
@@ -36,11 +36,11 @@ export default class BottomTabNavigator extends Component {
               //  iconName = "time";
               //}
 
-              //if (route.name === "Alugue uma Bicicleta") {
-              // iconName = "bicycle";
-              //} else if (route.name === "Histórico de Locações") {
-              //  iconName = "time";
-              //}
+              if (route.name === "Alugue uma Bicicleta") {
+               iconName = "bicycle";
+              } else if (route.name === "Histórico de Locações") {
+                iconName = "time";
+              }
 
               // You can return any component that you like here!
               return (
